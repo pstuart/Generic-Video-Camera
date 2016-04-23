@@ -31,10 +31,10 @@ preferences {
         }
         section("Add a Camera") {
         	input("CameraStreamPathList","enum", title: "Camera Stream Path", description: "Please enter your camera's streaming path", required:false, submitOnChange: true,
-            options: [
-            ["rtsp://admin:winter12@192.168.101.185/Streaming/Channels/1":"Hikvision"], //hikvision
-            ["http://192.168.101.248:80/mjpeg.cgi?user=admin&password=winter12&channel=1.mjpeg":"Dlink"], //dlink 932l
-            ["http://pstuart:winter12@192.168.101.251/nphMotionJpeg?Resolution=640x480&Quality=Standard":"Panasonic"] //panasonic bl-140c
+            options: [ //add your camera urls here
+            ["rtsp://user:password@[ipaddress]/Streaming/Channels/1":"Name of Camera"], //hikvision
+            ["http://192.168.101.248:80/mjpeg.cgi?user=user&password=password&channel=1.mjpeg":"Name of Camera"], //dlink 932l
+            ["http://user:password@192.168.101.251/nphMotionJpeg?Resolution=640x480&Quality=Standard":"Name of Camera"] //panasonic bl-140c
             ], displayDuringSetup: true)
         
             
