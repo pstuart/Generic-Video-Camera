@@ -1,11 +1,2 @@
 # Generic-Video-Camera
-Generic Video Camera Live Streaming Video in SmartThings Tile View
-
-Install the 2 smartapps and devicetype in IDE.
-
-Add SmartApp Connect app to your mobile install
-Go into SmartApps, Generic Video Camera Connect App
-Add Cameras
-Either use drop down and edit in the child smartapp in IDE for your cameras
-or
-use the custom url to add any url to stream.
+I no longer support ST or any of the code I have written for that platform. Check out https://hubitat.com for my latest project and team I'm working on that is better than ST and is all local.
